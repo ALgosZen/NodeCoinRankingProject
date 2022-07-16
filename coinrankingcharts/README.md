@@ -2,6 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+REST APIs used:
+https://developers.coinranking.com/api/documentation
+
+App.js calls BarChart and BarChart will inturn make the API call to fetch json data . setChart will render page with chart data.
+## const [chart, setChart] = useState({})
+
 ## Available Scripts
 
 In the project directory, you can run:
